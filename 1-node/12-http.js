@@ -17,4 +17,6 @@ const server = http.createServer((req, res) => {
    
 })
 
-server.listen(8080) //set port
+server.listen(3000, () => {
+    console.log('server is running')
+}) //set port
